@@ -1,0 +1,63 @@
+.last-list {
+  margin-right: 200px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.head-section {
+  float: right;
+  margin-top: -32px;
+}
+
+header {
+  height: 70px;
+}
+
+.logo {
+  padding-top: 20px !important;
+}
+
+.btn-start {
+  margin-right: -30px !important;
+  background-color: rgb(102, 226, 102);
+  color: white;
+  border: 0px;
+}
+.welcome-container {
+  height: 500px;
+  margin-bottom: 130px;
+  background-image: url('../img/man-smiling.jpg');
+  background-size: cover;
+  background-position: 1px;
+}
+
+.welcome-text {
+  float: right;
+  right: 17.5%;
+  width: 350px;
+  top: 50%;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.second-sec {
+  margin-top: 120px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer > p {
+  position: relative;
+  top: 50%;
+}
