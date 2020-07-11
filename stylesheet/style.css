@@ -287,11 +287,8 @@ body {
   color: #111;
 }
 
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
+.mobile_nav{
+  display: none;
 }
 
 hr {
@@ -300,6 +297,12 @@ hr {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
+  .desktop_nav{
+    display: none;
+  }
+  .mobile_nav{
+    display: inline;
+  }
     #contact {
         height: 1000px;
     }
@@ -327,6 +330,11 @@ hr {
 }
 
 @media screen and (max-width: 569px) {
+  .navbar-toggler{
+    display: block;
+    color: #111 !important;
+  }
+ 
   #contact {
     height: 1200px;
     }
