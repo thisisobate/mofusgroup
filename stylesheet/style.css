@@ -73,6 +73,15 @@ header {
   background-image: url('../img/services.jpg');
   background-size: cover;
   background-position: 1px;
+  background-repeat: no-repeat;
+}
+.welcome-container5 {
+  height: 500px;
+  margin-bottom: 130px;
+  background-image: url('../img/agric.jpg');
+  background-size: cover;
+  background-position: 1px;
+  background-repeat: no-repeat;
 }
 
 .welcome-text {
@@ -297,6 +306,14 @@ hr {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
+  .invert{
+    flex-direction: column-reverse;
+  }
+  .welcome-text {
+    float: right;
+    right: 10.5%;
+    
+  }
   .desktop_nav{
     display: none;
   }

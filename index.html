@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link
       rel="stylesheet"
@@ -13,11 +16,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+
   </head>
   <body>
     <main>
@@ -27,8 +26,20 @@
 
           <div class="head-section">
             <nav class="mobile_nav">
-              <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars" aria-hidden="true"></i></span></button> -->
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="dark-blue-text"><i class="fa fa-bars" aria-hidden="true"></i></span>                
+                <span class="icon-bar"></span>
+            </button>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#contact">Contact</a></li>
+                  <!-- Put here your menu items -->
+              </ul>
+  
+            </div>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent15">
 
@@ -53,8 +64,9 @@
               <ul>
                 <li class="active"><a href="index.html" class="black_text" >Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li class="last-list"><a href="contact.html">Contact Us</a></li>
-                <a href="services.html"><button class="btn-start">See our works</button></a>
+                <a href="portfolio.html"><button class="btn-start">See our works</button></a>
               </ul>
             </nav>
           </div>
@@ -98,7 +110,7 @@
 
         <!--second section of the homepage-->
 
-        <div class="row second-sec">
+        <div class="row second-sec invert">
           <div class="col-sm-6 d-flex align-items-center">
             <div>
               <h3>Sector Wide Diversification</h3>
