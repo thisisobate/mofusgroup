@@ -306,13 +306,24 @@ hr {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
+
+  .mr-auto{
+    height: 100vh;
+    background-color: #fff;
+    width: 100vw;
+    padding-top: 80px;
+  }
+
+  .navbar-toggler{
+    float: right;
+  }
   .invert{
     flex-direction: column-reverse;
   }
   .welcome-text {
     float: right;
     right: 10.5%;
-    
+
   }
   .desktop_nav{
     display: none;
