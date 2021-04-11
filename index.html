@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <link
       rel="stylesheet"
@@ -16,53 +31,72 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
   </head>
   <body>
     <main>
       <header>
         <div class="container">
-          <h4 class="logo">Mofus Group</h4>
+          <h4 class="logo">
+            <a href=".">Mofus Group</a>
+          </h4>
 
           <div class="head-section">
             <nav class="mobile_nav">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-              aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars" aria-hidden="true"></i></span></button>
-             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent15"
+                aria-controls="navbarSupportedContent15"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                onclick="onMenuToggle()"
+              >
+                <span class="dark-blue-text"
+                  ><i class="fa fa-bars" aria-hidden="true"></i
+                ></span>
+              </button>
 
-                
-                  <!-- Links -->
-                
-                  <ul class="navbar-nav mr-auto text-center">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="services.html">services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">contact us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">see our work</a>
-                    </li>
-                  </ul>
-                  <!-- Links -->
-              
-                </div>
+              <div
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent15"
+              >
+                <!-- Links -->
+
+                <ul class="navbar-nav mr-auto text-center">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">see our work</a>
+                  </li>
+                </ul>
+                <!-- Links -->
+              </div>
             </nav>
 
             <nav class="desktop_nav">
               <ul>
-                <li class="active"><a href="index.html" class="black_text" >Home</a></li>
+                <li class="active">
+                  <a href="index.html" class="black_text">Home</a>
+                </li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li class="last-list"><a href="contact.html">Contact Us</a></li>
-                <a href="portfolio.html"><button class="btn-start">See our works</button></a>
+                <a href="portfolio.html"
+                  ><button class="btn-start">See our works</button></a
+                >
               </ul>
             </nav>
           </div>
@@ -73,8 +107,9 @@
         <div class="welcome-text">
           <h3>Mofus Group</h3>
           <p>
-            We are a diversified and fully integrated conglomerate.
-            The Group has interests across a range of sectors in Nigeria’s economy and across Africa.
+            We are a diversified and fully integrated conglomerate. The Group
+            has interests across a range of sectors in Nigeria’s economy and
+            across Africa.
           </p>
           <a href="about.html"><button class="btn-start">Learn More</button></a>
         </div>
@@ -92,15 +127,15 @@
           </div>
           <div class="col-sm-6 d-flex align-items-center">
             <div>
-            <h3>High Performant Workforce</h3>
-            <p>
-              Since inception, the group has taken giant steps towards
-              ensuring excellence in service delivery and quality of it's goods
-              with the best brains behind each product. The commitment of our workforce
-              is a fundamental reason for the excellence we guarantee which is contemporary
-              with the 21st century. 
-            </p>
-          </div>
+              <h3>High Performant Workforce</h3>
+              <p>
+                Since inception, the group has taken giant steps towards
+                ensuring excellence in service delivery and quality of it's
+                goods with the best brains behind each product. The commitment
+                of our workforce is a fundamental reason for the excellence we
+                guarantee which is contemporary with the 21st century.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -111,12 +146,11 @@
             <div>
               <h3>Sector Wide Diversification</h3>
               <p>
-                The Group has interests across a range of sectors 
-                in Nigeria’s economy and across Africa. Current interests 
-                include; Pharmaceutical Products, Transport Services, 
-                Independent Marketers of Petroleum Products, 
-                Commercial Agriculture, Real Estate Developers, 
-                Building and Civil construction.
+                The Group has interests across a range of sectors in Nigeria’s
+                economy and across Africa. Current interests include;
+                Pharmaceutical Products, Transport Services, Independent
+                Marketers of Petroleum Products, Commercial Agriculture, Real
+                Estate Developers, Building and Civil construction.
               </p>
             </div>
           </div>
@@ -143,14 +177,14 @@
           </div>
           <div class="col-sm-6 d-flex align-items-center">
             <div>
-            <h3>Excellent Customer Service</h3>
-            <p style="text-align: justify;">
-              We are completely focused on delivering excellent products
-              and services with reliable, effective and efficient support system 
-              that guarantee maximum value to our numerous categories of 
-              customers whose ultimate satisfaction is our goal.
-            </p>
-          </div>
+              <h3>Excellent Customer Service</h3>
+              <p style="text-align: justify">
+                We are completely focused on delivering excellent products and
+                services with reliable, effective and efficient support system
+                that guarantee maximum value to our numerous categories of
+                customers whose ultimate satisfaction is our goal.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -159,4 +193,13 @@
       <p>Copyright 2020. All rights reserved.</p>
     </footer>
   </body>
+  <script>
+    function onMenuToggle() {
+      if (document.body.style.overflow !== "hidden") {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "visible";
+      }
+    }
+  </script>
 </html>
