@@ -333,6 +333,9 @@ hr {
   .mobile_nav {
     display: inline;
   }
+  .nav-item {
+    font-size: 2rem;
+  }
   #contact {
     height: 1000px;
   }

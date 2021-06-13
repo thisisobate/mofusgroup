@@ -130,7 +130,7 @@
       </div>
     </main>
     <footer>
-      <p>Copyright 2020. All rights reserved.</p>
+      Copyright <span id="copyright-year">2020</span>. All rights reserved.
     </footer>
   </body>
   <script>
@@ -141,5 +141,7 @@
         document.body.style.overflow = "visible";
       }
     }
+    document.querySelector("#copyright-year").innerText =
+      new Date().getFullYear();
   </script>
 </html>
